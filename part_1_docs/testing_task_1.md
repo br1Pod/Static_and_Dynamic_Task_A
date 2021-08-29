@@ -1,14 +1,15 @@
 ### Testing task 1:
 
 # Carry out static testing on the code below.
+
 # Comment on any errors that you see below.
 
 Note that we are only looking for errors here.
 
-**Not** any issues with, i.e.: 
-Thinking that methods should be renamed or should be class level, or using string interpolation etc. 
+**Not** any issues with, i.e.:
+Thinking that methods should be renamed or should be class level, or using string interpolation etc.
 
-These aren't errors but rather standards that vary from developer to developer. 
+These aren't errors but rather standards that vary from developer to developer.
 
 Only comment on errors that would stop the tests running.
 
@@ -18,24 +19,24 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1:				# depending on the game, ace sometimes valued as 11. If applicable, code should check if 1 OR 11
       return True
     else
       return False
    
 
-  dif highest_card(self, card1 card2):
-  if card1.value > card2.value:
-    return card
+  dif highest_card(self, card1 card2):		# dif should be def. Comma required between card1 and card2 in parameters
+  if card1.value > card2.value:			# line needs to be indented (also apples to subsequent lines in this function)
+    return card					# need to return card1, not card
   else:
     return card2
   
 
 
 def cards_total(self, cards):
-  total
+  total						# var needs to be defined (const, let or var). Needs to be set to '= 0'
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total	# brackets needed around the statement to be returned
   
 ```
