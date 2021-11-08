@@ -19,7 +19,7 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:				# depending on the game, ace sometimes valued as 11. If applicable, code should check if 1 OR 11
+    if card.value = 1:				
       return True
     else
       return False
@@ -34,7 +34,7 @@ class CardGame:
 
 
 def cards_total(self, cards):
-  total						# var needs to be defined (const, let or var). Needs to be set to '= 0'
+  total						# var needs to be defined (const, let or var). Needs to be set to an initial value.
   for card in cards:
     total += card.value
     return "You have a total of" + total	# brackets needed around the statement to be returned
